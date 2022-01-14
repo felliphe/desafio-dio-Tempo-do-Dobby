@@ -10,7 +10,7 @@ public class Problem {
         System.out.print("DIGITE A SEGUNDA E A TERCEIRA ENTRADA: ");
         int A = leitor.nextInt() + leitor.nextInt();
         //TODO: Complete o If com a condição que soluciona o problema.
-        if (N > A || N < A)
+        if (A > N)
             System.out.println("Deixa para amanha!");
         else
             System.out.println("Farei hoje!");
